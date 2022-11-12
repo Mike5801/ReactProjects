@@ -1,14 +1,13 @@
 import './card.styles.css';
 
-const Card = () => {
+const Card = ({name, desc}) => {
     return (
         <div className='card-container'>
             <div className='card-title'>
-                This is the Title of the Card!
+                {name}
             </div>
             <div className='card-body'>
-                Body of the card
-                Body of the card                
+                {desc}         
             </div>
         </div>
     );
