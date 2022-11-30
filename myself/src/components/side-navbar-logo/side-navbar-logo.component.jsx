@@ -8,7 +8,7 @@ const SideNavbarLogo = ({logoName, logoIcon}) => {
                 {logoIcon}
                 <div className="logo-name">{logoName}</div>
             </div>
-            <MenuLogo className="logo-icon"/>
+            <MenuLogo className="menu-icon"/>
         </div>
     );
 }
