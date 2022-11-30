@@ -1,0 +1,47 @@
+.profile-content {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    .profile {
+        position: relative;
+        padding: 10px 6px;
+        height: 60px;
+        background: #1d1b31;
+
+        .profile-details {
+            display: flex;
+            align-items: center;
+
+            img {
+                height: 45px;
+                width: 45px;
+                object-fit: cover;
+                border-radius: 12px;
+            }
+
+            .name-job {
+                margin-left: 10px;
+                
+                .name {
+                    font-size: 15px;
+                    font-weight: 400;   
+                }
+
+                .job {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .log-out-icon {
+            position: absolute;
+            left: 88%;
+            bottom: 5px;
+            transform: translateX(-70%) translateY(-50%);
+            min-width: 50px;
+        }
+    }
+}
