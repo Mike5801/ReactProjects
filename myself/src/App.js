@@ -10,7 +10,7 @@ import Analytics from './routes/analytics/analytics.component';
 import FileManager from './routes/file-manager/file-manager.component';
 import Messages from './routes/messages/messages.component';
 import Order from './routes/order/order.component';
-import Saved from './routes/saved/saved.component';
+import Favorites from './routes/saved/saved.component';
 import Settings from './routes/settings/settings.component';
 import User from './routes/user/user.component';
 
@@ -47,7 +47,7 @@ const App = () => {
         <Route path='file-manager' element={ <FileManager/> } />
         <Route path='messages' element={ <Messages/> } />
         <Route path='order' element={ <Order/> } />
-        <Route path='saved' element={ <Saved/> } />
+        <Route path='favorites' element={ <Favorites/> } />
         <Route path='settings' element={ <Settings/> } />
         <Route path='user' element={ <User/> } />
       </Route>

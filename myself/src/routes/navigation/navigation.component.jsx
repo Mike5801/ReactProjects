@@ -6,8 +6,6 @@ import SideNavBarLogo from '../../components/side-navbar-logo/side-navbar-logo.c
 import SideNavbarList from '../../components/side-navbar-list/side-navbar-list.component';
 import SideNavbarProfile from '../../components/side-navbar-profile/side-navbar-profile.component';
 import { Fragment } from "react";
-
-
 const Navigation = () => {
     return(
         <Fragment>

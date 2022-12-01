@@ -1,10 +1,10 @@
 
-const Saved = () => {
+const Favorites = () => {
     return(
         <div>
-            <h1>Saved</h1>
+            <h1>Favorites</h1>
         </div>
     );
 }
 
-export default Saved;
+export default Favorites;

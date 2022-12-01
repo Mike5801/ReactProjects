@@ -12,12 +12,12 @@ import { ReactComponent as HeartIcon } from '../../assets/heart.svg';
 const SideNavbarList = () => {
     return(
         <ul className='nav-list'>
-            <SideNavbarElement title={"Dashboard"} icon={<DashBoardIcon/>}/>
-            <SideNavbarElement title={"Analytics"} icon={<AnalyticsIcon/>}/>
-            <SideNavbarElement title={"Folder"} icon={<FolderIcon/>}/>
-            <SideNavbarElement title={"Favorites"} icon={<HeartIcon/>}/>
-            <SideNavbarElement title={"User"} icon={<UserIcon/>}/>
-            <SideNavbarElement title={"Settings"} icon={<SettingsIcon/>}/>
+            <SideNavbarElement title={"Dashboard"} icon={<DashBoardIcon/>} route=""/>
+            <SideNavbarElement title={"Analytics"} icon={<AnalyticsIcon/>} route="analytics"/>
+            <SideNavbarElement title={"File Manager"} icon={<FolderIcon/>} route="file-manager"/>
+            <SideNavbarElement title={"Favorites"} icon={<HeartIcon/>} route="favorites"/>
+            <SideNavbarElement title={"User"} icon={<UserIcon/>} route="user"/>
+            <SideNavbarElement title={"Settings"} icon={<SettingsIcon/>} route="settings"/>
         </ul>
     );
 }
