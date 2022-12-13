@@ -1,8 +1,8 @@
 
 const Settings = () => {
     return(
-        <div>
-            <h1>Settings</h1>
+        <div className="page-content">
+            <div className="page-title">Settings</div>
         </div>
     );
 }

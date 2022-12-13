@@ -1,8 +1,8 @@
 
 const Analytics = () => {
     return(
-        <div>
-            <h1>Analytics</h1>
+        <div className="page-content">
+            <div className="page-title">Analytics</div>
         </div>
     );
 }

@@ -13,7 +13,7 @@
   line-height: 50px;
   text-align: center;
 }
-.nav-list-element a {
+.nav-list-element .link-element {
   color: #fff;
   display: flex;
   align-items: center;
@@ -21,7 +21,7 @@
   transition: all 0.4s ease;
   border-radius: 12px;
 }
-.nav-list-element a:hover {
+.nav-list-element .link-element:hover {
   color: #11101d;
   background: #fff;
 }/*# sourceMappingURL=side-navbar-element.styles.css.map */
