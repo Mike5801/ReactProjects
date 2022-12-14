@@ -19,7 +19,7 @@ const Navigation = () => {
     return(
         <Fragment>
             <div className={`sidebar ${active ? 'active' : ''}`}>
-                <SideNavBarLogo logoName={"CodeLab"} logoIcon={<Logo/>}/>
+                <SideNavBarLogo logoName={"LifeMan"} logoIcon={<Logo/>}/>
                 <MenuLogo className="menu-icon" onClick={handleClick}/>
                 <SideNavbarList />
                 <SideNavbarProfile 
