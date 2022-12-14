@@ -1,4 +1,3 @@
-import { Fragment } from 'react';
 import './side-navbar-list.styles.css';
 import SideNavbarElement from '../side-navbar-element/side-navbar-element.component';
 import { ReactComponent as DashBoardIcon } from '../../assets/layout-grid.svg';
