@@ -27,6 +27,16 @@
                 opacity: 1;
                 pointer-events: none;
             }
+
+            svg {
+                opacity: 1;
+                pointer-events: none;
+            }
+
+            .logo-name {
+                opacity: 1;
+                pointer-events: none;
+            }
         }
         
         .menu-icon {
@@ -51,6 +61,16 @@
                 .profile-details {
                     opacity: 1;
                     pointer-events: auto;
+
+                    img {
+                        opacity: 1;
+                        pointer-events: auto;
+                    }
+
+                    .name-job {
+                        opacity: 1;
+                        pointer-events: auto;
+                    }
                 }
 
                 .log-out-icon {

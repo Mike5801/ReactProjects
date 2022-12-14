@@ -10,7 +10,7 @@
   padding: 10px 6px;
   height: 60px;
   background: none;
-  transition: all 0.4s ease;
+  transition: all 0.5s ease;
 }
 .profile-content .profile .profile-details {
   display: flex;
@@ -25,9 +25,15 @@
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 12px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1s ease;
 }
 .profile-content .profile .profile-details .name-job {
   margin-left: 10px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease;
 }
 .profile-content .profile .profile-details .name-job .name {
   font-size: 15px;
@@ -44,5 +50,5 @@
   transform: translateX(-50%) translateY(-50%);
   min-width: 50px;
   text-align: center;
-  transition: all 0.4s ease;
+  transition: all 0.5s ease;
 }/*# sourceMappingURL=side-navbar-profile.styles.css.map */

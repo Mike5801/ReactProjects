@@ -14,8 +14,14 @@
   margin-left: 10px;
   width: 30px;
   height: 30px;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease;
 }
 .logo-content .logo .logo-name {
   font-size: 25px;
   font-weight: 400;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease;
 }/*# sourceMappingURL=side-navbar-logo.styles.css.map */
