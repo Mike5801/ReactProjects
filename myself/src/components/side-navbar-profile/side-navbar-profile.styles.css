@@ -9,11 +9,15 @@
   position: relative;
   padding: 10px 6px;
   height: 60px;
-  background: #1d1b31;
+  background: none;
+  transition: all 0.4s ease;
 }
 .profile-content .profile .profile-details {
   display: flex;
   align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
 }
 .profile-content .profile .profile-details img {
   height: 45px;
@@ -34,8 +38,11 @@
 }
 .profile-content .profile .log-out-icon {
   position: absolute;
-  left: 88%;
+  background: none;
+  left: 50%;
   bottom: 5px;
-  transform: translateX(-70%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   min-width: 50px;
+  text-align: center;
+  transition: all 0.4s ease;
 }/*# sourceMappingURL=side-navbar-profile.styles.css.map */

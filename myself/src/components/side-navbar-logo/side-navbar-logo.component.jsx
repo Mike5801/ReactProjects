@@ -1,5 +1,4 @@
 import './side-navbar-logo.styles.css';
-import { ReactComponent as MenuLogo } from '../../assets/menu-2.svg';
 
 const SideNavbarLogo = ({logoName, logoIcon}) => {
     return(
@@ -8,7 +7,6 @@ const SideNavbarLogo = ({logoName, logoIcon}) => {
                 {logoIcon}
                 <div className="logo-name">{logoName}</div>
             </div>
-            <MenuLogo className="menu-icon"/>
         </div>
     );
 }

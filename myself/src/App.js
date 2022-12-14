@@ -3,7 +3,6 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import CardList from './components/card-list/card-list.component'
-import SideNavBar from './components/side-navbar/side-navbar.component'
 import Navigation from './routes/navigation/navigation.component';
 import Dashboard from './routes/dashboard/dashboard.component';
 import Analytics from './routes/analytics/analytics.component';

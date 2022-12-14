@@ -3,7 +3,50 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: 240px;
+  width: 78px;
   background: #11101d;
   padding: 6px 14px;
+  transition: all 0.5s ease;
+}
+.sidebar .menu-icon {
+  position: absolute;
+  color: #fff;
+  top: 6px;
+  left: 50%;
+  height: 50px;
+  width: 25px;
+  text-align: center;
+  transform: translateX(-50%);
+}
+.sidebar.active {
+  width: 248px;
+}
+.sidebar.active .logo-content .logo {
+  opacity: 1;
+  pointer-events: none;
+}
+.sidebar.active .menu-icon {
+  left: 90%;
+}
+.sidebar.active .tooltip {
+  display: none;
+}
+.sidebar.active .link-element .links-name {
+  opacity: 1;
+  pointer-events: auto;
+}
+.sidebar.active .profile-content .profile {
+  background: #1d1b31;
+}
+.sidebar.active .profile-content .profile .profile-details {
+  opacity: 1;
+  pointer-events: auto;
+}
+.sidebar.active .profile-content .profile .log-out-icon {
+  left: 88%;
+  background: none;
+}
+.sidebar.active ~ .page-content {
+  width: calc(100% - 240px);
+  left: 240px;
 }/*# sourceMappingURL=navigation.styles.css.map */

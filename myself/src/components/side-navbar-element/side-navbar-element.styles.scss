@@ -2,15 +2,13 @@
     position: relative;
     height: 50px;
     width: 100%;
-    margin: 0 5px;
     list-style: none;
     line-height: 50px;
 
     svg {
-        height: 20px;
+        height: 25px;
         min-width: 50px;
         border-radius: 12px;
-        line-height: 50px;
         text-align: center;
     }
 
@@ -21,10 +19,17 @@
         text-decoration: none;
         transition: all 0.4s ease;
         border-radius: 12px;
+        white-space: nowrap;
 
         &:hover {
             color: #11101d;
             background: #fff;
+        }
+        
+        .links-name {
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.5s ease;
         }
     }
 
@@ -32,7 +37,7 @@
         position: absolute;
         left: 122px;
         top: 0;
-        transform: translateY(-50%);
+        transform: translate(-40%, -50%);
         border-radius: 6px;
         height: 35px;
         width: 122px;
@@ -43,7 +48,10 @@
         transition: 0s;
         opacity: 0;
         pointer-events: none;
+        display: block;
     }
+
+    
 
     &:hover {
         .tooltip {

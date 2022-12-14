@@ -16,8 +16,9 @@ body {
 .page-content {
   position: absolute;
   height: 100%;
-  width: calc(100% - 240px);
-  left: 240px;
+  width: calc(100% - 78px);
+  left: 78px;
+  transition: all 0.5s ease;
 }
 .page-content .page-title {
   font-size: 25px;

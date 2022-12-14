@@ -4,6 +4,9 @@
   height: 50px;
   width: 100%;
   align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s ease;
 }
 .logo-content .logo svg {
   font-size: 28px;
@@ -14,14 +17,4 @@
 .logo-content .logo .logo-name {
   font-size: 20px;
   font-weight: 400;
-}
-.logo-content .menu-icon {
-  position: absolute;
-  color: #fff;
-  left: 90%;
-  top: 6px;
-  height: 50px;
-  width: 25px;
-  text-align: center;
-  transform: translateX(-50%);
 }/*# sourceMappingURL=side-navbar-logo.styles.css.map */
