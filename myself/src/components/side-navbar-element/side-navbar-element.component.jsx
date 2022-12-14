@@ -8,7 +8,7 @@ const SideNavbarElement = ({title, icon, route}) => {
                 {icon}
                 <span className="links-name">{title}</span>
             </Link>
-            {/* <span className="tooltip">Dashboard</span> */}
+            <span className="tooltip">{title}</span>
         </li>
     );
 }

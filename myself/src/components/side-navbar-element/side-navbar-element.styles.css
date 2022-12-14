@@ -24,4 +24,25 @@
 .nav-list-element .link-element:hover {
   color: #11101d;
   background: #fff;
+}
+.nav-list-element .tooltip {
+  position: absolute;
+  left: 122px;
+  top: 0;
+  transform: translateY(-50%);
+  border-radius: 6px;
+  height: 35px;
+  width: 122px;
+  background: #fff;
+  line-height: 35px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: 0s;
+  opacity: 0;
+  pointer-events: none;
+}
+.nav-list-element:hover .tooltip {
+  transition: all 0.5s ease;
+  opacity: 1;
+  top: 50%;
 }/*# sourceMappingURL=side-navbar-element.styles.css.map */
