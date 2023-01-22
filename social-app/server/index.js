@@ -1,3 +1,4 @@
+/* PACKAGE IMPORTS */
 import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
@@ -8,8 +9,16 @@ import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
 import { fileURLToPath } from "url";
+
+/* CONTROLLER IMPORTS */
 import { register } from "./controllers/auth.js";
+
+/* ROUTE IMPORTS */
 import authRoutes from "./routes/auth.js";
+import userRoutes from "./routes/users.js";
+
+/* MIDDLEWARE IMPORTS */
+import { verifyToken } from "./middleware/auth.js";
 
 /* CONFIGURATIONS */
 const __filename = fileURLToPath(import.meta.url); //grab file url
@@ -41,6 +50,7 @@ app.post("/auth/register", upload.single("picture"), register);
 
 /* ROUTES */
 app.use("/auth", authRoutes);
+app.use("/users", userRoutes);
 
 
 /* MONGOOSE SETUP */
