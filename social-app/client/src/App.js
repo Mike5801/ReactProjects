@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-      <ThemeProvider theme={theme}>
+        <ThemeProvider theme={theme}>
         <CssBaseline />
         <Routes>
           <Route 

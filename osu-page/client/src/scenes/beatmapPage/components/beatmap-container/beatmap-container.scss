@@ -1,0 +1,73 @@
+.beatmap-container {
+    display: flex;
+    flex-direction: column;
+    
+    .beatmap-filter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background-color: #2E3538;
+        align-items: center;
+        color: white;
+        padding: 0.5rem 1rem;
+        
+        .beatmap-filter-options {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            gap: 0.5rem;
+            font-size: 12px;
+            font-weight: lighter;
+            align-items: center;
+            
+            .filter-option {
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+                padding-right: 2px;
+                cursor: pointer;
+                border-radius: 5px;
+
+                .dropdown-icon {
+                    opacity: 0;
+                }
+
+                &:hover, &:active {
+                    background-color: #444B4E;
+
+                    .dropdown-icon {
+                        opacity: 1;
+                    }
+                }
+            }
+
+        }
+
+        .beatmap-filter-icons {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            
+            .display-filter-icon {
+                cursor: pointer;
+                font-size: 15px;
+                padding: 5px 8px;
+                border-radius: 5px;
+
+                &:hover, &:active{
+                    background-color: #444B4E;
+                }
+            }
+        }
+    }
+
+    .beatmap-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        background-color: #24282A;
+        padding: 10px 15px;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+}
