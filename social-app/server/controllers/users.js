@@ -55,7 +55,7 @@ export const addRemoveFriend = async (req, res) => {
         await user.save();
         await friend.save();
 
-        const formattedFriends = formatFriendsHandler(user);
+        const formattedFriends = await formatFriendsHandler(user);
 
         res.status(200).json(formattedFriends);
     } catch (err) {
