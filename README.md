@@ -1,2 +1,2 @@
 # Social App
-Full stack social application created with MERN
+Social web app created using the MERN stack
