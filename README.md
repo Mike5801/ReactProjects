@@ -1,2 +1,2 @@
-# ReactProjects
-Personal react projects to implement ideas using the framework
+# Social App
+Full stack social application created with MERN
