@@ -1,5 +1,5 @@
 # Social App
-Social web app created using the MERN stack and material UI
+A social web app project created using the MERN stack featuring user authentication, image upload, posts, changing theme between light and dark mode and responsiveness
 
 <div align="center">
   <img alt="Preview of Social App Light Mode responsive" src="https://i.imgur.com/XmaNw4z.png" />
